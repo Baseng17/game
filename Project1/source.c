@@ -4,7 +4,6 @@
 
 
 
-
 #define UP 72
 #define LEFT 75
 #define RIGHT 77
@@ -47,7 +46,7 @@ void Render()
 			
 			if (maze[i][j] == '1')
 			{
-				printf("¡á");
+				printf(" ¡á");
 			}
 			else if (maze[i][j] == '0')
 			{
@@ -55,7 +54,7 @@ void Render()
 			}
 			if (maze[i][j] == '2')
 			{
-				printf("¡Ù");
+				printf(" ¡Ù");
 			}
 		}
 
@@ -72,13 +71,68 @@ void Position(int x, int y)
 
 }
 
-
+int Canmove(int x, int y)
+{
+    if (maze[y][x / 2] == '1')
+    {
+        return 0;
+    }
+    return 1;
+}
 
 int main()
 {
-	Character character = { 1,1,"¡Ú" };
+    Character character = { 2,1," ¡Ú" };
 
-	Render();
+    char key = 0;
 
-	return 0;
+    Render();
+
+    while (1)
+    {
+        if (_kbhit())
+        {
+            key = _getch();
+
+            if (key == -32)
+            {
+                key = _getch();
+            }
+
+            int X = character.x;
+            int Y = character.y;
+
+            switch (key)
+            {
+            case UP: Y--;
+                break;
+            case LEFT:X -= 2;
+                break;
+            case RIGHT:X += 2;
+                break;
+            case DOWN:Y++;
+                break;
+            default: printf("Exception\n");
+                break;
+            }
+
+            if (Canmove(X, Y))
+            {
+                character.x = X;
+                character.y = Y;
+            }
+          
+            system("cls");
+
+            Render();
+
+        }
+
+        Position(character.x, character.y);
+        printf("%s", character.shape);
+
+    }
+
+
+    return 0;
 }

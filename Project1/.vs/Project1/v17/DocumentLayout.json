@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D69139E-0E41-4552-8063-502AE63D4762}|..\\class3th (Maze Game)\\class3th (Maze Game).vcxproj|C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class3th (Maze Game)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD790A1A-4785-42BC-88F8-6F8632217E41}|Project1.vcxproj|C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\Project1\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD790A1A-4785-42BC-88F8-6F8632217E41}|Project1.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513680EC-1C8D-4B26-B4BD-E91E303BA7BA}|..\\class2th (Double Buffering)\\class2th (Double Buffering).vcxproj|C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class2th (Double Buffering)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 238,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class3th (Maze Game)\\source.c",
+              "RelativeDocumentMoniker": "..\\class3th (Maze Game)\\source.c",
+              "ToolTip": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class3th (Maze Game)\\source.c",
+              "RelativeToolTip": "..\\class3th (Maze Game)\\source.c",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAHMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-19T12:42:52.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class2th (Double Buffering)\\source.c",
+              "RelativeDocumentMoniker": "..\\class2th (Double Buffering)\\source.c",
+              "ToolTip": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\class2th (Double Buffering)\\source.c",
+              "RelativeToolTip": "..\\class2th (Double Buffering)\\source.c",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAE4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-19T10:56:32.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\Project1\\source.c",
+              "RelativeDocumentMoniker": "source.c",
+              "ToolTip": "C:\\Users\\\uC131\uC7AC\\Desktop\\gg\\game\\Project1\\source.c",
+              "RelativeToolTip": "source.c",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAIkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-19T10:56:32.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
