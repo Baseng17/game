@@ -6,7 +6,7 @@
 
 void Load(const char* fileName)
 {
-	FILE* file = fopen("fileName", "r");
+	FILE* file = fopen(fileName, "r");
 
 	char buffer[SIZE] = { 0, };
 
@@ -24,11 +24,9 @@ void Load(const char* fileName)
 }
 
 
-
-
-
 int main()
 {
+	
 #pragma region 파일 입출력
 
 
